@@ -1,0 +1,12 @@
+A:link{
+	color:blue;
+	text-decoration:none;
+		}
+A:visited{
+		color:blue;
+		text-decoration:none;
+		}
+A:hover{
+		color:red;
+		text-decoration:underline;
+		}

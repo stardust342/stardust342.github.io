@@ -1,0 +1,65 @@
+<html>
+<head>
+		<meta name="keywords" content="stardust342, stardust, tutorials, youtube, videos, free">
+		<meta name="description" content="Stardust342.tk Javascript test grounds">
+<script type="text/javascript">
+var word="JavaScript HQ by Stardust342 ";
+document.write(word.bold().fontcolor("red"));
+document.title = "Stardust342 welcomes you to Javascripting HQ!";
+var cur_title = document.title;
+alert(cur_title);
+
+function message()
+{
+var nick = prompt("Please type in your e-mail address!", "Email_Address");
+var name = prompt("Please type in your name or your nickname!", "nickname");
+alert('Welcome, ' + nick + '!!');
+alert(nick + ' has 1 new message! click OK to read');
+alert("mike has sent you the following messege: Hey dude, I made this sick awesome script to do your homework! click ok to use it, " + nick + "!");
+var n1 = prompt("The first number");
+alert('X');
+var n2 = prompt("the second number");
+alert("your answer has ben calculated, " + nick);
+alert("the answer is " + n1 * n2);
+alert("you have NO new messages, " + name + ", click OK to exit")
+}
+
+function zaar()
+{
+var items_bought = prompt("How many did you buy?");
+var item_price = prompt("how much does 1 Item cost?");
+document.write(items_bought + " items bought at a price of $" + item_price + " each will cost a total of $" + (items_bought * item_price) + ".");
+}
+function lol()
+{
+
+var num1 = prompt("number 1");
+var num2 = prompt("number 2");
+
+if (num1<num2)
+	{
+	alert("number 2 is larger than number 1!");
+	}
+else if (num1>num2)
+	{
+	alert("number 1 is larger than number 2!");
+	}
+
+}
+function brow()
+	{
+var inter = (navigator.appName)
+alert("You are running "+inter +"!" + " Note: Firefox and Chrome are based off of Netscape")
+	}
+</script>
+</head>
+<body>
+<script src="chgoto.js" language="JavaScript" type="text/javascript"></script>
+<form>
+<input type="button" value="Check E-mail" onClick="message()">
+<input type="button" value="Item costs" onClick="zaar()">
+<input type="button" value="Number Test" onClick="lol()">
+<input type="button" value="browser name" onClick="brow()">
+</form>
+</body>
+</html>
